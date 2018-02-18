@@ -4,12 +4,13 @@ Ecoin integration/staging tree
 http://www.ECoin.info
 
 Copyright (c) 2009-2013 Bitcoin Developers
+
 Copyright (c) 2018 Ecoin Developers
 
 What is Ecoin?
 ----------------
 
- - - Givecoin is a hybrid x11 hash algorithm
+ - - Ecoin is a hybrid x11 hash algorithm
  - - 3 minute block targets
  - - 1000 coins per block and reduce 0.8 every 100000 block
  - - 12.5 coins after block 800000 
@@ -26,8 +27,7 @@ the ecoin client sofware, see http://www.ecoin.info
 License
 -------
 
-eivecoin is released under the terms of the MIT license. See `COPYING` for more
-information or see http://opensource.org/licenses/MIT.
+Ecoin is GNU
 
 Development process
 -------------------
