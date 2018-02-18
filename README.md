@@ -1,31 +1,32 @@
-Givecoin integration/staging tree
+Ecoin integration/staging tree
 ================================
 
 http://www.ECoin.info
 
 Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2013-2014 Givecoin Developers
+Copyright (c) 2018 Ecoin Developers
 
-What is Givecoin?
+What is Ecoin?
 ----------------
 
- - - Givecoin is a hybrid of the long-lasting Litecoin crytocurrency implementation, and x11 hash algorithm
- - - 2.5 minute block targets
- - - 1000 coins per block
- - - subsidy halves in 250k blocks (~6 years)
+ - - Givecoin is a hybrid x11 hash algorithm
+ - - 3 minute block targets
+ - - 1000 coins per block and reduce 0.8 every 100000 block
+ - - 12.5 coins after block 800000 
+ - - subsidy halves in 34m blocks (~199 years)
  - - 60 second block targets
  - - Proof of Work
  - - Difficulty retarget is handled by KGW with the time warp patch
- - - Block Maturation - 120 Confirmations
+ - - Block Maturation - 60 Confirmations
  - - 4 Confirmations
 
 -  For more information, as well as an immediately useable, binary version of
-the Givecoin client sofware, see http://www.givecoin.info
+the ecoin client sofware, see http://www.ecoin.info
 
 License
 -------
 
-Givecoin is released under the terms of the MIT license. See `COPYING` for more
+eivecoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -47,8 +48,8 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/Givecoin/givecoin) are created
-regularly to indicate new official, stable release versions of Givecoin.
+completely stable. [Tags](https://github.com/arkadgmx/ecoin) are created
+regularly to indicate new official, stable release versions of Ecoin.
 
 Testing
 -------
@@ -71,5 +72,5 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
-    ./Givecoin-qt_test
+    ./Ecoin-qt_test
 
