@@ -35,7 +35,7 @@ Development process
 As always, developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the Givecoin
+If it is a simple/trivial/non-controversial change, then one of the Ecoin
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
