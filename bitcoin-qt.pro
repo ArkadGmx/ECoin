@@ -1,7 +1,7 @@
 TEMPLATE = app
-TARGET = Givecoin-qt
-macx:TARGET = "Givecoin-Qt"
-VERSION = 0.8.6.2
+TARGET = Ecoin-qt
+macx:TARGET = "Ecoin-Qt"
+VERSION = 0.0.0.1
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
@@ -343,7 +343,7 @@ SOURCES += src/qt/test/test_main.cpp \
 HEADERS += src/qt/test/uritests.h
 DEPENDPATH += src/qt/test
 QT += testlib
-TARGET = Givecoin-qt_test
+TARGET = Ecoin-qt_test
 DEFINES += BITCOIN_QT_TEST
   macx: CONFIG -= app_bundle
 }
