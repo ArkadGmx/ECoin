@@ -4,7 +4,6 @@ Ecoin integration/staging tree
 http://www.ECoin.info
 
 Copyright (c) 2009-2013 Bitcoin Developers
-
 Copyright (c) 2018 Ecoin Developers
 
 What is Ecoin?
@@ -12,6 +11,7 @@ What is Ecoin?
 
  - - Ecoin is a hybrid x11 hash algorithm
  - - 3 minute block targets
+ - - Only 673,750,000 coins will issued in circulation
  - - 1000 coins per block and reduce 0.8 every 100000 block
  - - 12.5 coins after block 800000 
  - - subsidy halves in 34m blocks (~199 years)
