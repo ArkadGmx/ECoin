@@ -1,9 +1,10 @@
 Ecoin integration/staging tree
 ================================
 
-http://www.ECoin.info
+http://www.Ecoin.info
 
 Copyright (c) 2009-2013 Bitcoin Developers
+
 Copyright (c) 2018 Ecoin Developers
 
 What is Ecoin?
