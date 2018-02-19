@@ -12,10 +12,10 @@ What is Vimo?
 
  - - Vimo is a hybrid x11 hash algorithm
  - - 3 minute block targets
- - - Only 673,750,000 coins will issued in circulation
- - - 1000 coins per block and reduce 20% every 100000 block
- - - 12.5 coins after block 800000 
- - - subsidy halves in 34m blocks (~199 years)
+ - - Only 5,256,000,000 coins will issued in circulation
+ - - 6,000 coins per block and reduce 20% every 172,500 block
+ - - 172,500 block solve per year 
+ - - subsidy halves in 3O million blocks (~171 years)
  - - 60 second block targets
  - - Proof of Work
  - - Difficulty retarget is handled by KGW with the time warp patch
