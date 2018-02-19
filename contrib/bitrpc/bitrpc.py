@@ -10,9 +10,9 @@ rpcpass = ""
 
 
 if rpcpass == "":
-	access = ServiceProxy("http://127.0.0.1:9332")
+	access = ServiceProxy("http://127.0.0.1:8080")
 else:
-	access = ServiceProxy("http://"+rpcuser+":"+rpcpass+"@127.0.0.1:9332")
+	access = ServiceProxy("http://"+rpcuser+":"+rpcpass+"@127.0.0.1:8080")
 cmd = sys.argv[1].lower()
 
 if cmd == "backupwallet":
@@ -126,7 +126,7 @@ elif cmd == "getreceivedbyaccount":
 
 elif cmd == "getreceivedbyaddress":
 	try:
-		addr = raw_input("Enter a Givecoin address (optional): ")
+		addr = raw_input("Enter a Vimo address (optional): ")
 		mc = raw_input("Minimum confirmations (optional): ")
 		try:
 			print access.getreceivedbyaddress(addr, mc)
