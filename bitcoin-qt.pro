@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = Ecoin-qt
-macx:TARGET = "Ecoin-Qt"
+TARGET = Vimo-qt
+macx:TARGET = "Vimo-Qt"
 VERSION = 0.0.0.1
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
