@@ -1,16 +1,16 @@
-Ecoin integration/staging tree
+ViMoney (VIMO) integration/staging tree
 ================================
 
-http://www.Ecoin.info
+http://www.vimo.bit
 
 Copyright (c) 2009-2013 Bitcoin Developers
 
-Copyright (c) 2018 Ecoin Developers
+Copyright (c) 2018 Vimo Developers
 
-What is Ecoin?
+What is Vimo?
 ----------------
 
- - - Ecoin is a hybrid x11 hash algorithm
+ - - Vimo is a hybrid x11 hash algorithm
  - - 3 minute block targets
  - - Only 673,750,000 coins will issued in circulation
  - - 1000 coins per block and reduce 20% every 100000 block
@@ -23,15 +23,17 @@ What is Ecoin?
  - - 4 Confirmations
 
 -  For more information, as well as an immediately useable, binary version of
-the ecoin client sofware, see http://www.ecoin.info
+the ecoin client sofware, see http://www.Vimo.bit
 
 License
 -------
 
-ECoin is licensed under the MIT License. A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+Vimo is licensed under the MIT License. A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
 Development process
 -------------------
+
+Vimo is Virtual Money. Not an ICO, or token for sale. How to get this coin is by mining.
 
 As always, developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
@@ -50,7 +52,7 @@ controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/arkadgmx/ecoin) are created
-regularly to indicate new official, stable release versions of Ecoin.
+regularly to indicate new official, stable release versions of Vimo.
 
 Testing
 -------
@@ -71,7 +73,7 @@ Unit tests for the core code are in `src/test/`. To compile and run them:
 
 Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
+    qmake BITCOIN_QT_TEST=1 -o Makefile.test Vimo-qt.pro
     make -f Makefile.test
-    ./Ecoin-qt_test
+    ./Vimo-qt_test
 
